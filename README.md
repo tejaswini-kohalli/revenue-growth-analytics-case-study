@@ -1,12 +1,7 @@
 # 📊 Revenue Growth & Conversion Optimization – Ecommerce Case Study
 
 ## 👤 Author
-Tejaswini Kohalli  
-
-## 🎯 Target Roles
-- Growth Analyst  
-- Business Analyst  
-- FinOps Analyst  
+Tejaswini Kohalli   
 
 ---
 
@@ -119,6 +114,8 @@ This project demonstrates ability to:
 - Calculate unit economics (LTV, CAC)
 - Derive actionable business insights
 - Translate analytics into growth strategy
+
+ ---
 
 ## 🧠 Key Learning
 
