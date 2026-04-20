@@ -1,9 +1,8 @@
--- Monthly Revenue
+-- Revenue Analysis
 
 SELECT 
-  DATE_FORMAT(event_time, '%Y-%m') AS month,
-  SUM(price) AS revenue
-FROM ecommerce
-WHERE event_type='purchase'
-GROUP BY month
-ORDER BY month;
+    SUM(price) AS total_revenue,
+    AVG(price) AS average_order_value,
+    COUNT(*) AS total_transactions
+FROM events
+WHERE event_type = 'purchase';
